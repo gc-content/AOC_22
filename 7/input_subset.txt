@@ -1,0 +1,31 @@
+$ cd /
+$ ls
+dir fcqv
+dir fcv
+72939 hdpgfcwd
+236918 jlncjqh.csz
+dir jvwfwrg
+dir tzwpllhq
+dir vglf
+28586 wzljr.zvp
+$ cd fcqv
+$ ls
+dir fhg
+277152 qldfrhm.qnr
+269351 qsd
+dir thbb
+$ cd fhg
+$ ls
+dir jljrdvw
+$ cd jljrdvw
+$ ls
+101940 vsvgjg.tpn
+$ cd ..
+$ cd ..
+$ cd thbb
+$ ls
+144311 cchngzcc.lcd
+178246 fbsj.wtl
+48521 gfsqtssb.vtg
+284713 jwl.hll
+96717 wdqqqv.pcr
