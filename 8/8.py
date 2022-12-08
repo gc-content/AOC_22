@@ -41,15 +41,11 @@ trans = []
 for idx, n in enumerate(trans_tab):
 	a = spotter_l(n)
 	b = [len(n)-x-1 for x in spotter_l(np.flip(n))]
-	trans.append([(idx, k) for k in sorted(set(a+b))])
+	trans.extend([(k, idx) for k in sorted(set(a+b))]) # transform_coordinates
 
-### transform coordinates:
 
-trans_transformed = ([(y,x) for n in trans for x,y in n])
 
-#print(f"T:\n{trans_transformed}")
-
-high_trees = set(non_trans+trans_transformed)
+high_trees = set(non_trans+trans)
 print(len(high_trees))
 
 
