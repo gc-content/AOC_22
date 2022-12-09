@@ -3,7 +3,7 @@ import time
 
 def is_adj(point1,point2):
 	y,x = [point1[0],point2[0]], [point1[1],point2[1]]
-	if abs(min(y)-max(y)) > 1 or abs(min(x)-max(x)) > 1 : return False
+	if abs(y[0]-y[1]) > 1 or abs(x[0]-x[1]) > 1 : return False
 	else: return True
 
 
@@ -72,7 +72,7 @@ with open("input.txt") as inp:
 						onscreen = False
 						print("Snake escaped")
 						break	
-				time.sleep(0.001)
+				time.sleep(0.01)
 				#input() #for step-by-step
 				print("--------------")
 				for n in grid:
