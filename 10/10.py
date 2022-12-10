@@ -2,14 +2,11 @@
 outtab = [1]
 
 with open("input.txt") as inp:
-	counter = 1
 	for line in inp:
 		spl = line.strip().split(" ")
 		if spl[0] == "noop":
 			outtab.append(outtab[-1])
-			counter +=1
 		if spl[0] == "addx":
-			counter +=2
 			outtab.append(outtab[-1])
 			outtab.append(outtab[-1]+int(spl[1]))
 
