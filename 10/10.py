@@ -24,7 +24,7 @@ print(signal)
 for ln in range(6):
 	line = []
 	for idx,sig in enumerate(outtab[0+ln*40:40+ln*40]):
-		if  sig-1 <= idx <= sig+1:
+		if  sig-1 <= idx <= sig+1: ## add border case
 			line.append("#")
 		else: line.append(".")
 	print("".join(line))
